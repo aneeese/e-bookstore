@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.cust-btn {
+    background-color: #27489B;
+    margin-right: 1rem;
+}
+
+.btn-outline-success:hover {
+    color: white;
+    background-color: #269AD6;
+}
+
+.nav-link {
+    color: black;
+}
+
+.nav-link:hover {
+    color: #27489B;
+}
+
+.card-img-top {
+    height: 15rem;
+    object-fit: contain;
+}
+
+.card-title {
+    font-size: 1.2rem;
+}
+
+.form-cust {
+    margin-left: 4rem;
+    margin-right: 6rem;
+}
+
+.btn-primary {
+    background-color: #269AD6;
+}
+
+.btn-primary:hover {
+    background-color: #27489B;
+}
+
+.profile-pic {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    margin-right: 100px;
+    border: 2px solid #269AD6;
+    cursor: pointer;
+}
+
+.sub-menu-link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #525252;
+}
+
+.sub-menu-link p {
+    padding-top: 15px;
+    width: 100%;
+}
+
+.sub-menu-link img {
+    width: 35px;
+    background: #e5e5e5;
+    border-radius: 50%;
+    padding: 8px;
+    margin-right: 15px;
+}
+
+.sub-menu-link:hover p {
+    font-weight: 600;
+}
+
+/* New CSS */
+.dropdown-menu {
+    padding-left: 0.6rem;
+    min-width: 11rem;
+    border: 0px solid rgba(0,0,0,.15);
+    border-radius: 1rem;
+}
+
+.card-action {
+    float: right;
+    margin-top: -14px;
+    z-index: 1;
+    color: #E26D5C;
+    background: #fff;
+    border-radius: 50%;
+    padding: 10px 14px;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2), 0 1px 2px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card-action:hover {
+    color: #fff;
+    background: #E26D5C;
+}
+
+.clicked-btn {
+    color: #fff;
+    background: #E26D5C;
+}
